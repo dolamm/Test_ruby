@@ -70,3 +70,19 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+# #javascript runtime (nodejs alternative)
+# gem 'libv8'
+# gem 'execjs'
+# gem "therubyracer"
+
+# bcrypt is required to use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
+gem "bcrypt", "~> 3.1.7"
+
+#bootstrap 5
+gem "sass-rails"
+gem "sprockets-rails", :require => "sprockets/railtie"
+gem "bootstrap-sass"
+
+# fix issue with bootstrap 5
+gem 'mini_racer'
